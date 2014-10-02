@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <link rel="stylesheet" type ="text/css" href="GooglePlayBooks.css" />
+   <style type="text/css">
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+</style>
+<title>Google play books</title>
+</head>
+<body>
+   <header>
+      <a href=""><img id ="logo" src="https://www.gstatic.com/android/market_images/web/play_logo_x2.png"></a>
+      <div id="search-bar">
+         <form action="" method="get">
+            <input type="text" placeholder="검색">
+            <input type="submit" value ="">
+            <div class="cell"></div></input>
+         </form>
+      </div>
+      <div id="user-tools">
+         <button id="plus" type="button">+정봉</button>
+         <button id="app-menu" type="button">
+            <ul id ="app-selector">
+               <li class = "app-block"><div></div>+정봉</li>
+               <li class = "app-block"><div></div>검색</li>
+               <li class = "app-block"><div></div>YouTube</li>
+               <li class = "app-block"><div></div>지도</li>
+               <li class = "app-block"><div></div>Play</li>
+               <li class = "app-block"><div></div>뉴스</li>
+               <li class = "app-block"><div></div>Gmail</li>
+               <li class = "app-block"><div></div>드라이브</li>
+               <li class = "app-block"><div></div>캘린더</li>
+               <li class = "app-block"><div></div></li>
+               <li class = "app-block"><div></div></li>
+               <li class = "app-block"><div></div></li>
+               <div id = "spacer"></div>
+               <li class = "app-block"><div></div>번역</li>
+               <li class = "app-block"><div></div>도서</li>
+               <li class = "app-block"><div></div>Blogger</li>
+               <li class = "app-block"><div></div>사진</li>
+               <div id = "view-allApps">Google 제품 모두 보</div>
+            </ul>
+         </button>
+         <button id="alarm" type="button"><img src="https://ssl.gstatic.com/gb/images/v2_e41a714c.png"></button>
+         <button id="share" type="button">공유</button>
+         <button id="account"type="button"></button>
+      </div>
+   </header>
+   <section id="navigator">
+      <div id = "nav-container">
+         <div id="book-icon"class="icon-block">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABvElEQVRYw+2ZYY2EMBCFkYAEJKwEJCABCZWAAyQgAQlIQMJKQMLbP1NuKLSdQtk7cjNJk13STufre4GkUwAonjx+flAA6AAsNCYaPT03AGoAZZE5AFSU29BePdvf1mPY/GMAlmxEOAYAdabCB8FepbNuC0CErTOpBvCOJJ8BtKmqUO5JkLtma0rmkB2AjTeA5mBRLDYSBwp/CQrf5aJD4ofpBbAxAaicjWcByOBTg4pYIuvdfX1KRQFsdLwgoRrzgWfblFMn5fvAfDGAtVWdqMYKISjePfVGoFQSgI3RUaOPzO8JNhQm8e13CcBK3TgeXSJK+J6/WB4jOPUsADs12JuKf3yOCrYfRcPWVoK30i0AOzVOfMSaxFPPDrCqcaL48eKeWQHACssyTwEUQAEUQAEUQAEUQAEUQAEUQAEUQAH+EYB5EECHow4N4teEvw2wXqQh0COrIOsDfBtgxvYG298jownDHwIYEOuRXeio3Amw69slAaS0lm4A2Fy/nwZg1+fDFwF2lrkEILFUJgCvZbIAhCyVASBomWwAPktdBIhaJivAkaVOAogtcwsAtxT7PwXqn9i8JMtEAZ46PqSHvyF0shvmAAAAAElFTkSuQmCC"><span>도서</span></div>
+
+            <button id ="icon-button" type="button"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAbklEQVQ4y2P4//8/Ay0xw6gFg98CbKCjo8MAiA8AcQHVLYAa/gGI/4MsoaoFaIaDaAOqWYBmOAgHgMSpYgEWwxNgFlNsAT7DqWXBBVyGDxkLaBtENI9kPMk0gaoW0Dyj0aWowFLYNYzWB6MWMAAAq1H3+Mhu2hQAAAAASUVORK5CYII="></button>
+            <nav id ="book-menu">
+               <a href=""><div class="menu-block">내 책</div></a>
+               <a href=""><div class="menu-block">쇼핑하기</div></a>  
+            </nav>
+         </div>
+         <div id ="gravity-box">
+            <div id="action-bar">
+               <button id="genre" type="button">장르
+                  <div id="down-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAjUlEQVQoz2P4//8/A7mYYYhrzs3N5SsqKsoE0jLYFGZmZgoWFhZmAYEEhmagxsri4uL/QPwYaIAyssbs7GxhoPwFkDyQnoOhGWiqLlDyA7oBaBp/AdW5YfVzfn6+ObIBeXl5xsgagXQA3gBDM+AnLo04QxtqwHeoAX+xacQbVUC/RQA1vQQF5HBNYeRgAKO6bfkUgtZHAAAAAElFTkSuQmCC
+                     "></div>
+                     <div id="bar-item"></div>
+                     <ul id = "genre_menu">
+                        <li class="choice">가족 / 관계</li>
+                        <li class = "wellBeing">건강 / 웰빙</li>
+                        <li class = "choice">경영 / 경제</li>
+                        <li class = "choice">과학 / 수학</li>
+                        <li class = "choice">만화</li>
+                        <li class = "choice">소설 / 문학</li>
+                        <li class = "choice">어린이</li>
+                        <li class = "choice">여행</li>
+                        <li class = "choice">역사</li>
+                        <li class = "choice">예술과 디자인</li>
+                     </ul>
+                  </button>
+                  <button id="home">홈</button>
+                  <button id="popular-book">인기차트</button>
+                  <button id = "new-book">신간</button>
+               </div>
+               <div id = "option-box">
+                  <button id="help" type="button"></button>
+                  <button id="setting" type="button"></button>
+               </div>
+            </div>
+         </section>
+         <section id ="cluster">
+            <div class="board">
+               <div class = "card-top">
+                                    <button class="more">더보기</button>
+                  <span>
+                     <a href="">
+                        <h2>주간 베스트셀러</h2>
+                        <h4>한 주 동안 가장 많은 사랑을 받은 도서</h4>
+                     </a>
+                  </span>
+               </div>
+                  <div class="card">
+                     <ul id = "test">
+                        <li class = "bookCard">
+                           <div class="wrapper">
+                              <div class="cell">
+                                 <a href="">
+                                    <img src="https://encrypted.google.com/books/images/frontcover/yA2lAgAAQBAJ?fife=w300-rw">
+                                 </a>
+                              </div>
+                           </div>
+                           <div class = "description">
+                              <h3><a href="">잡담이 능력이다</a></h3>
+                              <span> <a class="author" href="">사이토 다카시</a></span>
+                              <span> <a class="price" href="">₩9,100</a></span>
+                              <div class = "paragraph-end"></div>
+                           </div>
+                        </li>
+                        <li class = "bookCard">
+                           <div class="wrapper">
+                              <div class="cell">                
+                                 <a href="">
+                                    <img src="https://encrypted.google.com/books/images/frontcover/VvCTIS-i28IC?fife=w300-rw">
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="description">
+                              <h3><a href="">어서와 연애는 처음이지?</a></h3>
+                              <span><a class="author" href="">장해정</a></span>
+                              <span><a class="price" href="">₩980</a></span>
+                              <div class = "paragraph-end"></div>
+                           </div>
+                        </li>
+                        <li class = "bookCard">
+                           <div class="wrapper">
+                              <div class="cell">
+                                 <a href="">
+                                    <img src="https://encrypted.google.com/books/images/frontcover/zTgXwcsGQcEC?fife=w300-rw">
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="description">
+                              <h3><a href="">데일 카네기의 자기관리론</a></h3>
+                              <span><a class="author" href="">데일 카네기</a></span>
+                              <span><a class="price" href="">₩3,000</a></span>
+                              <div class = "paragraph-end"></div>
+                           </div>
+                        </li>
+                        <li class = "bookCard">
+                           <div class="wrapper">
+                              <div class="cell">
+                                 <a href="">
+                                    <img src="https://encrypted.google.com/books/images/frontcover/w5ovsKXL0IQC?fife=w300-rw">
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="description">
+                              <h3><a href="">젊은 베르테르의 슬픔</a></h3>
+                              <span><a class="author" href="">요한 볼프강 괴테</a></span>
+                              <span><a class="price" href="">₩1,500</a></span>
+                              <div class = "paragraph-end"></div>
+                           </div>
+                        </li>
+                        <li class = "bookCard">
+                           <div class="wrapper">
+                              <div class="cell">
+                                 <a href="">
+                                    <img src="https://encrypted.google.com/books/images/frontcover/9ZXEAwAAQBAJ?fife=w300-rw">
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="description">
+                              <h3><a href="">정글만리 1</a></h3>
+                              <span><a class="author" href="">조정래</a></span>
+                              <span><a class="price" href="">₩8,100</a></span>
+                              <div class = "paragraph-end"></div>
+                           </div>
+                        </li>
+                     </div>
+               </div>
+                    <div class="board">
+               <div class = "card-top">
+                                    <button class="more">더보기</button>
+                  <span>
+                     <a href="">
+                        <h2>주간 베스트셀러</h2>
+                        <h4>한 주 동안 가장 많은 사랑을 받은 도서</h4>
+                     </a>
+                  </span>
+               </div>
+                  <div class="card">
+                     <ul id = "test">
+                        <li class = "bookCard">
+                           <div class="wrapper">
+                              <div class="cell">
+                                 <a href="">
+                                    <img src="https://encrypted.google.com/books/images/frontcover/yA2lAgAAQBAJ?fife=w300-rw">
+                                 </a>
+                              </div>
+                           </div>
+                           <div class = "description">
+                              <h3><a href="">잡담이 능력이다</a></h3>
+                              <span> <a class="author" href="">사이토 다카시</a></span>
+                              <span> <a class="price" href="">₩9,100</a></span>
+                              <div class = "paragraph-end"></div>
+                           </div>
+                        </li>
+                        <li class = "bookCard">
+                           <div class="wrapper">
+                              <div class="cell">                
+                                 <a href="">
+                                    <img src="https://encrypted.google.com/books/images/frontcover/VvCTIS-i28IC?fife=w300-rw">
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="description">
+                              <h3><a href="">어서와 연애는 처음이지?</a></h3>
+                              <span><a class="author" href="">장해정</a></span>
+                              <span><a class="price" href="">₩980</a></span>
+                              <div class = "paragraph-end"></div>
+                           </div>
+                        </li>
+                        <li class = "bookCard">
+                           <div class="wrapper">
+                              <div class="cell">
+                                 <a href="">
+                                    <img src="https://encrypted.google.com/books/images/frontcover/zTgXwcsGQcEC?fife=w300-rw">
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="description">
+                              <h3><a href="">데일 카네기의 자기관리론</a></h3>
+                              <span><a class="author" href="">데일 카네기</a></span>
+                              <span><a class="price" href="">₩3,000</a></span>
+                              <div class = "paragraph-end"></div>
+                           </div>
+                        </li>
+                        <li class = "bookCard">
+                           <div class="wrapper">
+                              <div class="cell">
+                                 <a href="">
+                                    <img src="https://encrypted.google.com/books/images/frontcover/w5ovsKXL0IQC?fife=w300-rw">
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="description">
+                              <h3><a href="">젊은 베르테르의 슬픔</a></h3>
+                              <span><a class="author" href="">요한 볼프강 괴테</a></span>
+                              <span><a class="price" href="">₩1,500</a></span>
+                              <div class = "paragraph-end"></div>
+                           </div>
+                        </li>
+                        <li class = "bookCard">
+                           <div class="wrapper">
+                              <div class="cell">
+                                 <a href="">
+                                    <img src="https://encrypted.google.com/books/images/frontcover/9ZXEAwAAQBAJ?fife=w300-rw">
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="description">
+                              <h3><a href="">정글만리 1</a></h3>
+                              <span><a class="author" href="">조정래</a></span>
+                              <span><a class="price" href="">₩8,100</a></span>
+                              <div class = "paragraph-end"></div>
+                           </div>
+                        </li>
+                     </div>
+               </div>
+            </section>
+            <footer>
+               <p>©2014 Google
+                  <a href="">사이트 서비스 약관</a>
+                  <a href="">기기 판매약관</a>
+                  <a href="">개인정보취급방침</a>
+                  <a href="">개발자</a>
+               </p>
+               <p>
+                  상호명: Google Inc. | 대표자: Eric Schmidt | 주소: 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States | 대표전화: +1 650-253-0000 | 도움말 | 이메일:
+                  <a href="">gpk-usersupport@google.com</a>
+               </p>
+               <p>구글 플레이에 등록된 앱과 게임은 개발자들이 제공하고 판매하는 것이며, 구글은 개발자가 아닌 이상 등록한 상품 정보 및 거래에 대한 어떠한 책임도 지지 않습니다.
+               </p>
+            </footer>
+            <div id="loading"></div>
+            <script type="template" id ="_templates">
+            <li class = "bookCard">
+            <div class="wrapper">
+            <div class="cell">
+            <img src=%=imgUrl%>
+            </div>
+            </div>
+            <div class = "description">
+            <h3><a href="">%=title%</a></h3>
+            <span> <a class="author" href="">%=author%</a></span>
+            <span> <a class="price" href="">%=price%</a></span>
+            <div class = "paragraph-end"></div>
+            </div>
+            </li>
+            </script>
+            <script src = "GooglePlayBooks.js" type="text/javascript" charset="utf-8"></script>
+         </body>
+         </html>
